@@ -1,0 +1,67 @@
+<!DOCTYPE HTML> 
+<html>
+    <!--meta http-equiv=\"refresh\" content=\"5\"--> 
+    <body>
+        <title> Welcome to Smart Home Service</title>
+        <style>
+            .layout{
+                margin: auto;
+            }
+        </style>
+        <script>
+
+        </script>
+    </body>
+    <div class="layout"></div>
+        <form method="POST" name="myHomeForm" action="process.php">
+            <h1>The Current State of Your House</h1> 
+            <h2>Temperature, Humidity and Detection</h2>
+            <fieldset>
+                <legend><b>State</b></legend>
+                <table>
+                    <tr>
+                        <td><b>Temperature</b></td>
+                        <td>:</td>
+                        <td><input type="text" name="temp"><sup>o</sup>C</td>
+                    </tr>
+                    <tr>
+                        <td><b>Humidity</b></td>
+                        <td>:</td>
+                        <td><input type="text" name="humi">%</td>
+                    </tr>
+                    <tr>
+                        <td><b>Detection</b></td>
+                        <td>:</td>
+                        <td><input type="text" name="detect"></td>
+                    </tr>
+                </table>
+            </fieldset>
+            <br>
+            <h2>Remote Control Your House</h2>
+            <fieldset>
+                <legend><b>State</b></legend>
+                <table>
+                    <tr>
+                        <td><b>Curtain</b></td>
+                        <td>:</td>
+                        <td><input type="radio" name="cur1" value="1">Open</td>
+                        <td><input type="radio" name="cur1" value="0">Close</td>
+                    </tr>
+                    <tr>
+                        <td><b>Lamp</b></td>
+                        <td>:</td>
+                        <td><input type="radio" name="lamp1" value="1">On</td>
+                        <td><input type="radio" name="lamp1" value="0">Off</td>
+                    </tr>
+                    <tr>
+                        <td><b>Plug Board</b></td>
+                        <td>:</td>
+                        <td><input type="radio" name="plug1" value="1">On</td>
+                        <td><input type="radio" name="plug1" value="2">Off</td>
+                    </tr>
+                </table>
+                <input type="submit" name="제출" >
+            </fieldset>
+        </form>
+    </div>
+</html> 
