@@ -17,7 +17,8 @@
                 'multi'=>$row[6]);
             array_push($result, $temp);
         } 
-        echo json_encode(array("result"=>$result),JSON_UNESCAPED_UNICODE); // 배열형식의 결과를 json으로 변환 
+        echo json_encode(array("result"=>$result),JSON_UNESCAPED_UNICODE); 
+        // 배열형식의 결과를 json으로 변환 및 출력
         mysqli_close($mysqli); // DB 접속 종료 
     }
     else{
