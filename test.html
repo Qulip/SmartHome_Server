@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script>
+            function name(){
+                var dates = document.getElementById('date').value;
+                dates = dates+" correct";
+                alert(dates);
+            }
+            document.getElementById("usePrice").addEventListener('input', (e) => {
+                    const usePrice = e.target;
+                    const startPosition = usePrice.value.length - usePrice.selectionEnd;
+                    usePrice.value = usePrice.value.replace(/^0+|\D+/g, '').replace(/(\d)(?=(?:\d{3})+(?!\d))/g, '$1,'); // 첫자리 0제거, 콤마 추가
+                    const len = Math.max(usePrice.value.length - startPosition, 0);
+                    usePrice.setSelectionRange(len, len);
+                }
+            );
+        </script>
+    </head>
+    <body>
+        <a href="javascript:name();">
+            asdf
+        </a>
+        <input type="text" name="date" id="date">
+    </body>
+</html>
