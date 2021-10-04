@@ -4,8 +4,8 @@
   $mysqli = connect_sql(); //sql과 연결
     if($mysqli){ 
       echo "MySQL successfully connected!<br/>"; //연결 확인 후 POST로 값 받아오기
-      $temp = $_POST['temp']; 
-      $humi = $_POST['humi']; 
+      $temp = $_GET['temp']; 
+      $humi = $_GET['humi']; 
       
       echo "<br/>Temperature = $temp, Humidity = $humi";  //확인차 값 확인 후 sql에 저장
       $query = "INSERT INTO myhouse (temp, humi) VALUES ('$temp','$humi')"; 
