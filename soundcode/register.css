@@ -1,49 +1,61 @@
 #title{
-    margin: 5% 10%;
-  }
+  position: absolute;
+  transform: translate(-50%,-50%);
+  width: 40%;
+  height: 35%;
+  top: 40%;
+  left: 30%;
+}
 
-  * {
+#title img{
+  max-width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 15px;
+}
+
+* {
   margin: 0px;
   padding: 0px;
   text-decoration: none;
   font-family:sans-serif;
-  }
+}
 
-  body {
+body {
   background-image:#34495e;
-  }
+}
 
-  .joinForm {
+#login {
   position:absolute;
+  transform: translate(-50%,-50%);
   width:400px;
-  height:750px;
+  height:700px;
   padding: 30px, 20px;
   background-color:gainsboro;
   text-align:center;
-  top:45%;
+  top:50%;
   left:70%;
-  transform: translate(-50%,-50%);
   border-radius: 15px;
-  }
+}
 
-  .joinForm h2 {
+.joinForm h2 {
   text-align: center;
   margin: 30px;
-  }
+}
 
-  .test_text {
-    font-weight: bold;
-    text-align: center;
-    margin-bottom: 20px;
-  }
+.test_text {
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 10px;
+}
 
-  .textForm {
+.textForm {
   border-bottom: 2px solid #adadad;
-  margin: 30px;
+  margin: 25px;
   padding: 10px 10px;
-  }
+}
 
-  .reg {
+.reg {
   width: 100%;
   border:none;
   outline:none;
@@ -51,13 +63,16 @@
   font-size:16px;
   height:25px;
   background: none;
-  }
+}
+.joinForm h6{
+  height: 50px;
+}
 
-  .btn {
+.btn {
   position:relative;
   left:40%;
   transform: translateX(-50%);
-  margin-top: 40px;
+  margin-top: 25px;
   width:80%;
   height:40px;
   background: linear-gradient(125deg,#81ecec,#6c5ce7,#81ecec);
@@ -69,25 +84,25 @@
   cursor:pointer;
   transition: 0.4s;
   display:inline;
-  }
+}
 
-  .btn:hover {
-  background-position: right;
-  }
+.btn:hover {
+  background-position: right; 
+}
 
-  .img_png{
-    width: 100px;
-    height : 100px;  
-  }
-  .btn_mic{
-    border : 0ch;
-    border-radius: 50px;
-    background-color: gainsboro;
-  }
-  .btn_mic:hover{
+.img_png{
+  width: 50px;
+  height : 50px;  
+}
+.btn_mic{
+  border : 0ch;
+  border-radius: 50px;
+  background-color: gainsboro;
+}
+.btn_mic:hover{
 
-    background-color: #ffffff;
-  }
+  background-color: #ffffff;
+}
 /*
 px -> rem or %
 */
