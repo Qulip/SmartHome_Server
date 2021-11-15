@@ -1,31 +1,4 @@
-#title{
-  position: absolute;
-  transform: translate(-50%,-50%);
-  width: 40%;
-  height: 35%;
-  top: 40%;
-  left: 30%;
-}
-
-#title img{
-  max-width: 100%;
-  height: auto;
-  display: block;
-  border-radius: 15px;
-}
-
-* {
-  margin: 0px;
-  padding: 0px;
-  text-decoration: none;
-  font-family:sans-serif;
-}
-
-body {
-  background-image:#34495e;
-}
-
-#login {
+#register {
   position:absolute;
   transform: translate(-50%,-50%);
   width:400px;

@@ -1,28 +1,4 @@
-#title{
-    position: absolute;
-    transform: translate(-50%,-50%);
-    width: 40%;
-    height: 35%;
-    top: 40%;
-    left: 30%;
-  }
-  
-  #title img{
-    max-width: 100%;
-    height: auto;
-    display: block;
-    border-radius: 15px;
-  }
-
-* {
-    margin: 0px;
-    padding: 0px;
-    text-decoration: none;
-    font-family:sans-serif;
-}
-
-
-.joinForm {
+#login {
     position:absolute;
     width:25rem;
     height:20rem;
@@ -34,46 +10,15 @@
     transform: translate(-50%,-50%);
     border-radius: 15px;
 }
-
-.joinForm h2 {
+#login h2 {
     text-align: center;
     margin: 30px;
 }
 
-.textForm {
-    border-bottom: 2px solid #adadad;
-    margin: 30px;
-    padding: 10px 10px;
+#userName{
+    text-decoration: underline;
 }
 
-.reg {
-    width: 100%;
-    border:none;
-    outline:none;
-    color: #636e72;
-    font-size:16px;
-    height:25px;
-    background: none;
-}
-
-.btn {
-    position:relative;
-    left:40%;
-    transform: translateX(-50%);
-    margin-bottom: 10px;
-    width:80%;
-    height:40px;
-    background: linear-gradient(125deg,#81ecec,#6c5ce7,#81ecec);
-    background-position: left;
-    background-size: 200%;
-    color:white;
-    font-weight: bold;
-    border:none;
-    cursor:pointer;
-    transition: 0.4s;
-    display:inline;
-}
-
-.btn:hover {
-    background-position: right; 
+#login h3 {
+    margin : 10px;
 }
